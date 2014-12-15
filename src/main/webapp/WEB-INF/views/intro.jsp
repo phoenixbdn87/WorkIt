@@ -32,10 +32,12 @@
         <div class="templatemo-top-bar" id="templatemo-top">
             <div class="container">
                 <div class="subheader">
-                    <div id="email" class="pull-right">
-                           <spring:message code="user"/>&nbsp;<input type="text" />
-                           <spring:message code="password"/>&nbsp;<input type="password" />
-                           <button ></button>
+                    <div class="pull-right">
+                           <p style="color: #33CC00; display: block">
+                           		<spring:message code="user"/>&nbsp;<input type="text"/>
+                           		<spring:message code="password"/>&nbsp;<input type="password" />
+                           		<button title="Entrar"><spring:message code="enter"/></button>
+                           	</p>
                     </div>
                 </div>
             </div>
@@ -47,12 +49,10 @@
                     <div class="container">
                         <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
                                 </button>
-                                <a href="#" class="navbar-brand"><img src="images/templatemo_logo.png" alt="Urbanic free HTML5 template" title="Urbanic HTML5 Template" /></a>
+                                <p class="navbar-brand">WorkIt</p>
+<!--                                 Logo -->
+<!--                                 <a href="#" class="navbar-brand"><img src="images/templatemo_logo.png" alt="WorkIt" title="WorkIt" /></a> -->
                         </div>
                         <div class="navbar-collapse collapse" id="templatemo-nav-bar">
                             <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
@@ -259,163 +259,7 @@
             </div>
         </div><!-- /.templatemo-team -->
 
-        <div id="templatemo-portfolio" >
-            <div class="container">
-                <div class="row">
-                    <div class="templatemo-line-header" >
-                        <div class="text-center">
-                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">OUR PORTFOLIO</span>
-                            <hr class="team_hr team_hr_right hr_gray" />
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="templatemo-gallery-category" style="font-size:16px; margin-top:80px;">
-                        <div class="text-center">
-                            <a class="active" href=".gallery">All</a> / <a href=".gallery-design">Web Design </a>/ <a href=".gallery-graphic">Graphic</a> / <a href=".gallery-inspiration">Inspiration</a> / <a href=".gallery-creative">Creative</a>							
-                        </div>
-                    </div>
-                </div> <!-- /.row -->
-
-
-                <div class="clearfix"></div>
-                <div class="text-center">
-                    <ul class="templatemo-project-gallery" >
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-graphic" >
-                            <a class="colorbox" href="images/full-gallery-image-1.jpg" data-group="gallery-graphic">
-                                <div class="templatemo-project-box">
-
-                                    <img src="images/gallery-image-1.jpg" class="img-responsive" alt="gallery" />
-
-                                    <div class="project-overlay">
-                                        <h5>Graphic</h5>
-                                        <hr />
-                                        <h4>TEA POT</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-creative" >
-                            <a class="colorbox" href="images/full-gallery-image-2.jpg" data-group="gallery-creative">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-2.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Creative</h5>
-                                        <hr />
-                                        <h4>BREAKFAST</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                            <a class="colorbox" href="images/full-gallery-image-3.jpg" data-group="gallery-inspiration">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-3.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>GREEN COLORS</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-design" >
-                            <a class="colorbox" href="images/full-gallery-image-4.jpg" data-group="gallery-design">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-4.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Web Design</h5>
-                                        <hr />
-                                        <h4>CAMERA</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                            <a class="colorbox" href="images/full-gallery-image-5.jpg" data-group="gallery-inspiration">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-5.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>PLANT</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                            <a class="colorbox" href="images/full-gallery-image-6.jpg" data-group="gallery-inspiration">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-6.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>CABLE TRAIN</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-design" >
-                            <a class="colorbox" href="images/full-gallery-image-7.jpg" data-group="gallery-design">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-7.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Web Design</h5>
-                                        <hr />
-                                        <h4>CITY</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-creative" >
-                            <a class="colorbox" href="images/full-gallery-image-8.jpg" data-group="gallery-creative">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-8.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Creative</h5>
-                                        <hr />
-                                        <h4>BIRDS</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-graphic" >
-                            <a class="colorbox" href="images/full-gallery-image-9.jpg" data-group="gallery-graphic">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-9.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Graphic</h5>
-                                        <hr />
-                                        <h4>NATURE</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-inspiration" >
-                            <a class="colorbox" href="images/full-gallery-image-10.jpg" data-group="gallery-inspiration">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-10.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>DOGGY</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                    </ul><!-- /.gallery -->
-                </div>
-                <div class="clearfix"></div>
-                <div class="row text-center">
-                    <a class="btn_loadmore btn btn-lg btn-orange" href="#" role="button">LOAD MORE</a>
-                </div>
-            </div><!-- /.container -->
-        </div> <!-- /.templatemo-portfolio -->
-
+        
         <div id="templatemo-blog">
             <div class="container">
                 <div class="row">

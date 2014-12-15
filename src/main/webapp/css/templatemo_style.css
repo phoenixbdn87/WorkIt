@@ -54,13 +54,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .templatemo-top-menu .navbar-brand {
     padding: 0;
-    margin: 30px 0 0 0;
+    margin: 45px 0 0 0;
 }
 
 /* ------ Carousel ----- */
 
 #templatemo-carousel {
-    background: url('../images/templatemo_carousel_bg.jpg') no-repeat center center fixed; 
+    background: url('../images/startup_img.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 @media (max-width: 1024px) {
     #templatemo-carousel {
-        background: url('../images/templatemo_carousel_bg_s.jpg') no-repeat center center; 
+        background: url('../images/startup_img.jpg') no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -529,7 +529,7 @@ a:hover .social-icon-dribbble {
 }
 
 ul.templatemo-project-gallery  li  a img:hover {
-    border: 3px solid #ff7600;
+    border: 3px solid #ffffff;
 }
 
 .templatemo-gallery-category a {
